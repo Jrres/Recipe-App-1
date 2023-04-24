@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300&family=Blinker&display=swap');
+.App{
+  min-height: 100vh;
+
+}
+.title{
+  height: fit-content;
+  text-align: center;
+  font-family: 'Blinker', sans-serif;
+  
+}
+
+.cards {
+  
+  display: grid;
+  flex-wrap: wrap;
+  list-style: none;
+  
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  margin: auto;
+  width: 100%;
+  padding: 10px;
+
+}
+
+.cards_item {
+  display: flex;
+  border-bottom: 3px solid black ;
+}
+
+
